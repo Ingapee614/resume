@@ -1,0 +1,16 @@
+/*animation for profile image*/
+
+@keyframes profile-image {
+    0% {background-color: blue;}
+    100%{background-color: yellow;}
+
+}
+#AnimatedLogo-image{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    animation-name: AnimatedLogo-image;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;}
